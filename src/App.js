@@ -9,6 +9,7 @@ function App() {
       <nav>
         <a href="">Login</a>
         <a href="">Register</a>
+        <h1>Narcos</h1>
       </nav>
     </header>
    </main>
