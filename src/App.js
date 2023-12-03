@@ -1,18 +1,22 @@
-import './App.css';
+import "./App.css";
+import Post from "./post";
 
 function App() {
   return (
-   <main>
-    <header>
-      <a href="" classname="logo">MyBlog</a>
+    <main>
+      <header>
+        <a href="" className="logo">
+          Narco Traffickers
+        </a>
 
-      <nav>
-        <a href="">Login</a>
-        <a href="">Register</a>
-        <h1>Narcos</h1>
-      </nav>
-    </header>
-   </main>
+        <nav>
+          <a href="">Login</a>
+          <a href="">Register</a>
+        </nav>
+      </header>
+
+      <Post />
+    </main>
   );
 }
 
